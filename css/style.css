@@ -4,10 +4,8 @@ body {
   line-height: normal; background-color: rgba(69,105,159,0.15);
 }
 
-
-
 #introduction, #geography, #economy, #government {
-  border: 1px dashed rgb(69,105,159);
+  border: ;
   }
 
 h1 {
@@ -24,4 +22,17 @@ h3  {
 
 p, table, ul {
   font-size: 17px
+    }
+
+Footer    {
+      font-size: 14px
+        }
+
+main {
+      display: grid; grid-template-columns: 400px 400px;
+        }
+
+.box {
+  background-color:rgba(69,105,159,0.25);
+  padding: 10px; border:20px; margin:20px; overflow: auto; max-width: 250px
     }
