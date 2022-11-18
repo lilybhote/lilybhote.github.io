@@ -2,18 +2,24 @@ body {
   font-family: "Georgia", "Calibri", serif; color: rgb(0,0,128);
   font-size: 18px; font-family: serif; font-style: normal;
   line-height: normal; background-color: rgba(69,105,159,0.15);
+  max-width: 960px; margin: 0 auto;
 }
 
-#introduction, #geography, #economy, #government {
-  border: ;
+
+#figure-one {
+display: block; margin-left: 315px; margin-right: 315px;
+  }
+
+#figure-two {
+display: block; margin-left: 20px; margin-right: 30px;
   }
 
 h1 {
-font-size: 40px
+font-size: 40px; text-align: center;
   }
 
 h2 {
-font-size: 28px
+font-size: 28px; margin-top: 0;
   }
 
 h3  {
@@ -29,10 +35,16 @@ Footer    {
         }
 
 main {
-      display: grid; grid-template-columns: 400px 400px;
+      display: grid; grid-template-columns: 450px 450px;
+      grid-gap: 10px; max-width:950px; margin: auto;
         }
+
+section {
+  background-color:rgba(69,105,159,0.25);
+  padding: 10px; border:20px; margin:20px; overflow:auto;
+    }
 
 .box {
   background-color:rgba(69,105,159,0.25);
-  padding: 10px; border:20px; margin:20px; overflow: auto; max-width: 250px
+  padding: 10px; border:20px; margin: 20px; overflow: auto; max-width: 200px
     }
