@@ -39,7 +39,7 @@ main {
       grid-gap: 2px; max-width:950px; margin: auto;
         }
 #introduction  {
-      grid-row: 1 / span 2; margin-bottom: 580px;
+      grid-row: 1 / span 2; margin-bottom: 620px;
         }
 #geography {
        margin-bottom: 550px;
