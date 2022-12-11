@@ -23,15 +23,15 @@ nav li {
       font-size: 14px;
           }
 
-  h2 {
-    text-align: center;
+  h1 {
+    text-align: center; border: 2px dashed rgba(245,218,223); margin-left: 400px; margin-right: 400px;
           }
 
   .main     {
   display: grid; grid-template-columns: 450px 450px;
   grid-gap: 2px; max-width:950px; margin: auto;
                   }
-                  
+
 #summary {
   grid-column: 1 / span 2;;
         }
