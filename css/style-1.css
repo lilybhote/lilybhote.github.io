@@ -1,4 +1,32 @@
-body {
-  font-family: "Georgia", "Calibri", "Times new Roman"; serif; color: rgb(0,0,128);
-  font-size: 18px;
+header {
+  margin-top:46px
   }
+
+nav {
+  position: fixed; top: 0; left: 0; width: 100%; background-color: rgba(245,218,223);
+  }
+
+nav ul {
+      margin: 0 0 0 8px;
+      padding-left: 0;
+      list-style: none;
+        }
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px 0;
+        }
+
+  body {
+      font-family: "Merriweather", "Times new roman","Calibri"; serif; color: rgb(0,0,0);
+      font-size: 14px;
+          }
+
+  a:link {
+    color: rgb(51,102,204)
+              }
+
+  a:visited {
+    color: rgb(121,92,178)
+              }
