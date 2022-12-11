@@ -1,5 +1,5 @@
 header {
-  margin-top:46px; text-align: center;
+  margin-top:46px; text-align: center; font-family: "Notable", "Merriweather", "Times New Roman", "Calibri"; color:rgba(245,218,223);
   }
 
 nav {
@@ -24,7 +24,7 @@ nav li {
           }
 
   h1 {
-    text-align: center; border: 2px dashed rgba(245,218,223); margin-left: 400px; margin-right: 400px;
+    text-align: center; border: 2px dashed rgba(245,218,223); margin-left: 250px; margin-right: 250px; color: rgba(0,0,0);
           }
 
   .main     {
