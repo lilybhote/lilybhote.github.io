@@ -1,5 +1,5 @@
 header {
-  margin-top:46px
+  margin-top:46px; text-align: center;
   }
 
 nav {
@@ -22,6 +22,37 @@ nav li {
       font-family: "Merriweather", "Times new roman","Calibri"; serif; color: rgb(0,0,0);
       font-size: 14px;
           }
+
+  h2 {
+    text-align: center;
+          }
+
+  .main     {
+  display: grid; grid-template-columns: 450px 450px;
+  grid-gap: 2px; max-width:950px; margin: auto;
+                  }
+                  
+#summary {
+  grid-column: 1 / span 2;;
+        }
+
+#intro {
+    display: block; text-align: left; max-width: 400px; border: 2px solid rgba(245,218,223);
+    padding-left: 16px; margin: 5px;
+        }
+#favorites {
+    display: block; text-align: left; border: 2px solid rgba(245,218,223);
+    padding-left: 35px;
+        }
+
+#fashion, #food, #architecture, #arts  {
+  display: grid; grid-template-columns: 450px 450px;
+  grid-gap: 2px; max-width:950px; margin: auto; text-align: left; padding-top: 5px;
+        }
+
+#pone, #ptwo, #pthree {
+  display: block;
+    }
 
   a:link {
     color: rgb(51,102,204)
